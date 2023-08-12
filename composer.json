@@ -1,0 +1,24 @@
+{
+    "name": "auroraari/discord-webhooks",
+    "description": "A (really) lightweight wrapper to use Discord webhooks",
+    "homepage": "https://github.com/AuroraAri/Discord-Webhooks-PHP",
+    "keywords": ["php", "wrapper", "discordapp", "discord", "webhooks"],
+    "license": "Unlicense",
+    "type": "wrapper",
+    "require": {
+        "php": "^5.3",
+        "ext-curl": "^0.0.0"
+    },
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Arianna Story",
+            "email": "ari@ariannastory.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DiscordWebhooks\\": "src/"
+        }
+    }
+}
